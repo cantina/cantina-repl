@@ -1,0 +1,30 @@
+{
+  "name": "cantina-repl",
+  "version": "3.0.0",
+  "description": "REPL for cantina applications",
+  "main": "cantina-repl.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cantina/cantina-repl.git"
+  },
+  "author": "",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/cantina/cantina-repl/issues"
+  },
+  "homepage": "https://github.com/cantina/cantina-repl",
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "cantina": "git+ssh://git@github.com:cantina/cantina.git#3.x",
+    "repl-client": "~0.3.0"
+  },
+  "dependencies": {
+    "repl": "~0.1.3",
+    "mkdirp": "~0.4.0",
+    "underscore": "~1.6.0",
+    "idgen": "~2.0.2"
+  }
+}
