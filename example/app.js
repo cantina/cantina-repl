@@ -1,9 +1,9 @@
-var app = require('cantina');
+var app = require('cantina').createApp();
 
 app.boot(function (err) {
   if (err) throw err;
 
-  require('../');
+  app.require('../');
 
   app.start();
 });
